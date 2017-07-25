@@ -1,5 +1,5 @@
 {
-  "name": "@blueottersoftware/capture-stdout",
+  "name": "capture-stdout",
   "version": "1.0.0",
   "description": "Small efficient ES6 class that captures all stdout calls and stores the calls as an array of strings.   Very useful for confirming expected output behavior during tests.",
   "main": "capture-stdout.js",
