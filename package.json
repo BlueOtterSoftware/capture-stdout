@@ -1,0 +1,42 @@
+{
+  "name": "capture-stdout",
+  "version": "1.0.0",
+  "description": "Small efficient ES6 class that captures all stdout calls and stores the calls as an array of strings.   Very useful for confirming expected output behavior during tests.",
+  "main": "capture-stdout.js",
+  "scripts": {
+    "test": "mocha --colors -t 30000 --reporter spec 'tests/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueOtterSoftware/capture-stdout.git"
+  },
+  "keywords": [
+    "stdout",
+    "capture",
+    "testing",
+    "test",
+    "logging",
+    "utility"
+  ],
+  "author": "Randy Carver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlueOtterSoftware/capture-stdout/issues"
+  },
+  "homepage": "https://github.com/BlueOtterSoftware/capture-stdout#readme",
+  "engines": {
+    "node": "^8.1.2"
+  },
+  "devDependencies": {
+    "chai": "4.1.0",
+    "eslint": "4.3.0",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-plugin-chai-expect": "1.1.1",
+    "eslint-plugin-chai-friendly": "0.3.6",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.1.0",
+    "mocha": "3.4.2",
+    "pino": "4.7.1"
+  }
+}
